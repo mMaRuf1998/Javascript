@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+.container {
+
+    height:  500px;
+    width: 500px;
+    background-color: antiquewhite;
+    vertical-align: middle;
+    display: table-cell;
+
+   
+}   
+
+
+
+h1,h2,p{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+h2 {
+    font-size: 60px;
+}
+
+p{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.buttons{
+ 
+  padding: 10px;
+  text-align: center;
+ 
+}
+
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width:50px;
+    margin-bottom:5px;
+    border-radius :5px ;
+}
+
+
+#increment-btn , #save-btn {
+    background: darkred;
+}
