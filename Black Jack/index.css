@@ -1,0 +1,48 @@
+*{
+    margin:0px 5%;
+    padding:0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+body{
+    background-color: darkgreen;
+    
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+h1{
+    color: goldenrod ;
+  
+    padding: 15px;
+}
+
+p {
+    font-style: italic;
+    
+    padding: 10px;
+   
+    font-size: 20px;
+    
+    color: white;
+    
+}
+
+#player-el {
+    font-style: normal;
+}
+
+
+button {
+    margin-top: 5px;
+    color:darkgreen ;
+    font-weight: bold;
+    font-size: 18px;
+    padding:2px 10px;
+    background-color: goldenrod;
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+}
